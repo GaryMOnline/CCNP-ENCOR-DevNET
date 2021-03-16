@@ -1,6 +1,12 @@
 import requests
 from requests.auth import HTTPBasicAuth
 
+"""
+Cisco ENCOR Chapter 28 Foundational Network Programmability Concepts - API
+- Connects to Cisco DNAC using API and gets Token
+- Then gets a list of network devices and displays. 
+"""
+
 def get_auth_token():
     """
     Building out Auth request. Using requests.post to make a call to the Auth Endpoint
